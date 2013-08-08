@@ -65,11 +65,11 @@
         </div>
         <!-- The loading indicator is shown during image processing -->
         <div class="fileupload-loading"></div>
-        <br>
+        <br />
         <!-- The table listing the files available for upload/download -->
         <table class="table table-striped"><tbody class="files" data-toggle="modal-gallery" data-target="#modal-gallery"></tbody></table>
       </form>
-      <br>
+      <br />
 
     </div>
     <!-- modal-gallery is the modal dialog used for the image gallery -->
@@ -157,15 +157,17 @@
 
     <!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
     <script src="js/vendor/jquery.ui.widget.js"></script>
+    
     <!-- The Templates plugin is included to render the upload/download listings -->
-    <script src="http://blueimp.github.com/JavaScript-Templates/tmpl.min.js"></script>
+    <script src="http://blueimp.github.io/JavaScript-Templates/js/tmpl.min.js"></script>
     <!-- The Load Image plugin is included for the preview images and image resizing functionality -->
-    <script src="http://blueimp.github.com/JavaScript-Load-Image/load-image.min.js"></script>
+    <script src="http://blueimp.github.io/JavaScript-Load-Image/js/load-image.min.js"></script>
     <!-- The Canvas to Blob plugin is included for image resizing functionality -->
-    <script src="http://blueimp.github.com/JavaScript-Canvas-to-Blob/canvas-to-blob.min.js"></script>
+    <script src="http://blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
     <!-- Bootstrap JS and Bootstrap Image Gallery are not required, but included for the demo -->
-    <script src="http://blueimp.github.com/cdn/js/bootstrap.min.js"></script>
-    <script src="http://blueimp.github.com/Bootstrap-Image-Gallery/js/bootstrap-image-gallery.min.js"></script>
+    <script src="http://blueimp.github.io/cdn/js/bootstrap.min.js"></script>    
+    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>    
+    
     <!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
     <script src="js/jquery.iframe-transport.js"></script>
     <!-- The basic File Upload plugin -->
@@ -182,4 +184,3 @@
     <!--[if gte IE 8]><script src="js/cors/jquery.xdr-transport.js"></script><![endif]-->
   </body>
 </html>
-
